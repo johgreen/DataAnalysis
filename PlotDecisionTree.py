@@ -3,7 +3,6 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.tree import DecisionTreeClassifier
 
 
 def decision_surface(model, X, y, plot_step=0.02, xlabel='feature 0', ylabel='feature 1',
