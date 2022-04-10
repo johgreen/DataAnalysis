@@ -1,5 +1,5 @@
 import numpy as np
-from sklearn.model_selection import train_test_split, cross_val_predict, cross_val_score
+from sklearn.model_selection import train_test_split, cross_val_predict
 from sklearn.datasets import load_iris
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
