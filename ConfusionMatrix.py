@@ -33,7 +33,7 @@ def normalized_confusion_matrix(model, X_train, y_train, class_names):
     plt.ylabel('Actual', labelpad=13, fontsize = 15)
 
     for (index1, index2), value in np.ndenumerate(normed_conf):
-        plt.text(index1, index2, round(value,2) , ha = 'center', va = 'center')
+        plt.text(index2, index1, round(value,2) , ha = 'center', va = 'center')
 
     plt.show()
 
